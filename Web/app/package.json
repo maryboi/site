@@ -1,0 +1,16 @@
+{
+  "name": "NuwaySite",
+  "version": "1.0.0",
+  "description": "Homepage for Nuway AB",
+  "main": "index.js",
+  "scripts": {
+    "build":"webpack"
+  },
+  "author": "Nuway",
+  "devDependencies": {
+    "webpack": "^3.4.1"
+  },
+  "dependencies": {
+    "lodash": "^4.17.4"
+  }
+}
