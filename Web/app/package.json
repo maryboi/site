@@ -1,14 +1,14 @@
 {
   "name": "nuway",
   "version": "1.0.0",
-  "description": "",
+  "description": "Nuway AB homepage",
   "main": "index.js",
   "scripts": {
     "build": "webpack",
     "start": "babel-node ./app/server/server.js --presets es2015",
     "development": "NODE_ENV=development babel-node ./app/server/server.js --presets es2015"
   },
-  "author": "",
+  "author": "nuway AB",
   "license": "ISC",
   "devDependencies": {
     "babel-cli": "^6.24.1",
