@@ -5,8 +5,8 @@
   "main": "index.js",
   "scripts": {
     "build": "webpack",
-    "start": "babel-node ./app/server/server.js --presets es2015",
-    "development": "NODE_ENV=development babel-node ./app/server/server.js --presets es2015"
+    "start": "babel-node ./src/server/server.js --presets es2015",
+    "development": "NODE_ENV=development babel-node ./src/server/server.js --presets es2015"
   },
   "author": "nuway AB",
   "license": "ISC",
