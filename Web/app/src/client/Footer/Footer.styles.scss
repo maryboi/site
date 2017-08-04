@@ -1,0 +1,67 @@
+.Footer {
+  color: white;
+  position: relative;
+  height: 500px;
+  background-size: cover;
+  background-position: center center;
+  background-image: url('../../static/images/sky.jpg');
+}
+
+.FooterOverlay {
+  padding: 40px;
+  background-color: rgba(black, .75);
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.Title {
+  text-transform: uppercase;
+  margin-top: 30px;
+  font-size: 30px;
+  font-weight: 600;
+  color: white;
+}
+
+.Contact {
+  color: white;
+  display: block;
+  margin-top: 20px;
+  text-transform: uppercase;
+}
+
+.Content {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.Locations {
+  max-width: 1000px;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  text-align: center;
+  padding: 20px 20px 50px;
+  margin: 0 auto;
+}
+
+.Location {
+  text-transform: uppercase;
+  font-weight: bold;
+  flex: 1;
+}
+
+.Address {
+  font-size: 13px;
+  text-transform: none;
+  font-weight: normal;
+}
+
+.Logo {
+  height: 40px;
+}

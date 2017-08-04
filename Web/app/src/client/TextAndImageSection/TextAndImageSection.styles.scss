@@ -1,0 +1,58 @@
+.TextAndImageSection {
+  display: flex;
+  flex-flow: row wrap; 
+  cursor: pointer;
+
+  > div {
+    height: 400px;
+    width: 50%;
+    display: inline-block;
+    position: relative;
+    background-size: cover;
+    background-position: center center;
+    flex: 1 50%;
+
+    &:hover {
+      .Project {
+        opacity: 1;
+      }
+    }
+  }
+}
+
+.Stars {
+  background-image: url('../../static/images/stars.jpg');
+}
+
+.Bike {
+  background-image: url('../../static/images/bike.jpg');
+}
+
+.Road {
+  background-image: url('../../static/images/road.jpg');
+}
+
+.Ios {
+  background-image: url('../../static/images/ios.jpg')
+}
+
+.News {
+  background-image: url('../../static/images/news.jpg')
+}
+
+.Project {
+  transition: opacity .75s;
+  opacity: 0;
+  position: absolute;
+  bottom: 0;
+  background-color: rgba(0,0,0,.7);
+  padding: 15px;
+  color: white;
+}
+
+.Title {
+  font-size: 30px;
+  font-weight: 600;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+}

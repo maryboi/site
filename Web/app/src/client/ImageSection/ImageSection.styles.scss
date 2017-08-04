@@ -1,0 +1,32 @@
+.Section {
+  position: relative;
+  display: flex;
+  align-items: center;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.Image {
+  min-width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  z-index: -1;
+}
+
+.Titles {
+  width: 100%;
+  text-align: center;
+  color: white;
+  text-transform: uppercase;
+}
+
+.Title {
+  font-size: 110px;
+  font-weight: bold;
+}
+
+.SubTitle {
+  font-size: 14px;
+  letter-spacing: 5px;
+}

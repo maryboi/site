@@ -1,0 +1,43 @@
+.Navigation {
+  width: 100%;
+  position: fixed;
+  padding: 20px;
+  color: white;  
+  z-index: 1;
+  transition: background-color 2s;
+}
+
+.hasBackground {
+  background-color: rgba(black, .7)
+}
+
+.Logo {
+  height: 40px;
+  margin-left: 20px;
+}
+
+.NavigationList {
+  float: right;
+  text-transform: uppercase;
+  font-weight: 600;
+  padding-top: 11px;
+}
+
+.NavigationListItem {
+  display: inline-block;
+  margin-right: 20px;
+
+  a {
+    text-decoration: none;
+    color: white;
+    padding: 5px;    
+
+    &:visited {
+      color: white;
+    }
+
+    &:hover {
+      border-bottom: 3px solid white;
+    }
+  }
+}

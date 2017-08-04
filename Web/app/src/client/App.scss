@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600,700');
+
+*, *:before, *:after {
+  box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+	outline: none;
+}
+
+ol, ul {
+	list-style: none;
+}
+
+h1, h2, h3, p, ul, a {
+  font-family: 'Open Sans', sans-serif;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+
+	&:visited {
+		color: black;
+	}
+}
